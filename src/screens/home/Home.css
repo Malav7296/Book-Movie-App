@@ -1,0 +1,11 @@
+.upcoming-movies-header{
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px;
+}.left {
+    width: 76%;
+}.flex-container {
+    display: flex;
+}

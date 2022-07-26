@@ -1,0 +1,36 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}.logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    display: block;
+    -webkit-animation: spin 8s linear infinite;
+    -moz-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotateY(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotateY(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotateY(360deg);}
+}.login{
+    display: inline-block;
+    position: absolute;
+    left : 95%;
+    top : -35px;
+    height: 35px;
+    padding : 1px 16px 1px 16px;
+    font-size: 15px;
+}.book-show{
+    position: absolute;
+    left : 80%;
+    top : -35px;
+    height: 35px;
+    margin-right: 8px;
+}
